@@ -1,10 +1,10 @@
 $(document).ready(function () {
   $("#button").click(function () {
-    var task = $("input[name=list-item]").val();
-    $("#tasks").append("<li>" + task + "</li>");
+    var task = $("#task-input").val();
+    $("#tasks").append("<li id='task'>" + task + "</li>");
   });
 
-  $(document).on("dblclick", "li", function () {
+  $(document).on("dblclick", "#task", function () {
     $(this).toggleClass("strike").fadeOut("slow");
   });
 
