@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebe5e0;
+  margin-top: 300px;
+}
+
+.container {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #65839a;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 3px rgb(235, 229, 224);
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 4px 15px 4px 5px;
+}
+
+#button {
+  padding: 5px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  background-color: #ebe5e0;
+  color: black;
+}
+
+#button:hover {
+  cursor: pointer;
+}
+
+#instructions {
+  margin: 5px;
+}
+
+#instructions li {
+  color: white;
+}
+
+#tasks {
+  padding-left: 20px;
+  font-weight: bolder;
+}
+
+#tasks li {
+  padding: 5px;
+  color: black;
+  font-weight: bolder;
+}
+
+#tasks li:nth-child(even) {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+#tasks li:hover {
+  cursor: pointer;
+}
